@@ -1,0 +1,15 @@
+button {
+  width: 18.75rem;
+  height: 18.75rem;
+  margin: auto;
+  position: relative;
+  border: 1px solid #e4e4e4;
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #00000005;
+}
+
+button[data-active='true'] {
+  background-color: #8f97f30a;
+}
